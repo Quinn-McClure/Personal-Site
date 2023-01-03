@@ -1,0 +1,9 @@
+body
+{
+    background-color: rgb(10, 38, 71);
+}
+
+p, h1, h2, a
+{
+    color: white;
+}

@@ -1,0 +1,47 @@
+/* =========================================== 
+                    Nav Bar
+===============================================*/
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul
+{
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(20, 66, 114);
+}
+
+li
+{
+    float: left;
+}
+
+.menuItem
+{
+    display: block;
+    background-color: rgb(20, 66, 114);
+    color: var(--light-font);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover 
+{
+    background-color: rgb(44, 116, 179);
+}
+
+#active
+{
+    background-color: rgb(44, 116, 179);
+}
