@@ -19,9 +19,10 @@
         <!--Title-->
         <title>Quinn McClure</title>
         <!--Stylesheets-->
-        <link href="..//CSS/indexFloat.css" rel = "stylesheet">
+        <link href="..//CSS/indexBody.css" rel = "stylesheet">
         <link href = "../CSS/palette.css" rel = "stylesheet">
         <link href = "../CSS/navBar.css" rel = "stylesheet">
+        <link href = "../CSS/footer.css" rel = "stylesheet">
     </head>
     <body>
         <!--Nav Bar-->
@@ -51,31 +52,42 @@
         </header>
 
         <!--Main Content of landing page-->
-        <div id = "flexContainer">
-            <h1>Quinn McClure</h1>
-            <article>
-                <section id = "aboutMe">
-                    <h2>About Me</h2>
-                    <p>
-                        Hello, my name is Quinn McClure. I am currently pursuing a major in Computer Science and a minor
-                        in Environmental Studies at the University of Wisconsin - La Crosse. Within my academic career
-                        I have ... 
-                    </p>
-                    <p>
-                        Outside of academics, I like to stay active with working out, biking, and climbing. I am also an 
-                        avid reader and I like to reviews movies and TV shows. I enjoy spending time with friends and family 
-                        and travel as well!
-                    </p>
-                </section>
-                <section>
-                    <h2>Explore more of my page!</h2>
-                </section>
-            </article>
+        <div id = "flexContainer"></div>
+            <div id = "imgContainer">
+                <img id = "profImg" src = "../Images/profile.jpg" alt = "Image of Quinn McClure">
+            </div>
+            <div id = articleContainer>
+                <article>
+                    <section id = "aboutMe">
+                        <h2>About Me</h2>
+                        <p>
+                            Hello, my name is Quinn McClure. I am currently pursuing a major in Computer Science and a minor
+                            in Environmental Studies at the University of Wisconsin - La Crosse. Within my academic career
+                            I have ... 
+                        </p>
+                        <p>
+                            Outside of academics, I like to stay active with working out, biking, and climbing. I am also an 
+                            avid reader and I like to reviews movies and TV shows. I enjoy spending time with friends and family 
+                            and travel as well!
+                        </p>
+                    </section>
+                    <section id = "explore">
+                        <h2>Explore more of my page!</h2>
+                    </section>
+                </article>
+            </div>
         </div>
 
         <!--Footer-->
         <footer id = "footer">
-
+            <!--Contact Info-->
+            <p id = "contactHead"><b>Contact Info</b></p>
+            <ul id = "contactList">
+                <li class = "contactItem">Phone: </li>
+                <li class = "contactItem">Email: </li>
+                <li class = "contactItem"><a></a>LinkedIn</li>
+                <li class = "contactItem"><a></a>GitHub</li>
+            </ul>
         </footer>
     </body>
 </html>

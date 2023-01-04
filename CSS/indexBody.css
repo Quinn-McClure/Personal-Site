@@ -1,0 +1,36 @@
+
+/* =========================================== 
+                    Body
+===============================================*/
+#profImg
+{
+    height: 300px;
+    width: 400px;
+    float: left;
+}
+
+#flexContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#imgContainer
+{
+    margin: 30px;
+    float: left;
+}
+
+article
+{
+    font-size: large;
+}
+
+#explore
+{
+    padding: 10px;
+    margin: 10px;
+}

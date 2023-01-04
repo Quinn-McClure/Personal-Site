@@ -8,7 +8,7 @@ nav
     padding: 20px;
 }
 
-ul
+.menu
 {
     display: flex;
     gap: 1em;
@@ -22,9 +22,9 @@ ul
     background-color: rgb(20, 66, 114);
 }
 
-li
+a:link
 {
-    float: left;
+    text-decoration: none;
 }
 
 .menuItem
@@ -34,9 +34,10 @@ li
     color: var(--light-font);
     text-align: center;
     padding: 14px 16px;
+    float: left;
 }
 
-li a:hover 
+.menuItem:hover 
 {
     background-color: rgb(44, 116, 179);
 }
