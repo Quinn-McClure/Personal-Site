@@ -21,7 +21,13 @@
     display: flex;
     list-style-type: none;
     color: white;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 1em;
     padding: 15px;
     margin: 10px;
+}
+
+.contactItem
+{
+    size: 200px;
 }
