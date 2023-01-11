@@ -6,3 +6,17 @@
 {
     padding: 10px;
 }
+
+#modalOrientation
+{
+    display: float;
+    padding: 20px; 
+    flex-wrap: wrap;
+    gap: 1em;
+    flex-direction: row;
+}
+
+/* #modal1
+{
+    float: right;
+} */
