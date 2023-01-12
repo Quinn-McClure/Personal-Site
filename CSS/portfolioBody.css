@@ -9,10 +9,10 @@
 
 #modalOrientation
 {
-    display: float;
-    padding: 20px; 
+    display: flex;
+    padding: 50px; 
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 3em;
     flex-direction: row;
 }
 
