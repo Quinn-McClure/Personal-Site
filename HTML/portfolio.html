@@ -27,7 +27,7 @@
          <link href = "../CSS/navBar.css" rel = "stylesheet">
          <link href = "../CSS/footer.css" rel = "stylesheet">
          <!--JavaScript-->
-         <script src = "../JS/modal.js"></script>
+         <script src = "../JS/modal.js" async></script>
     </head>
     <body>
         <!--Nav Bar-->
@@ -68,18 +68,34 @@
             </section>
             <!--Modals/Projects-->
             </section>
-        </article>
 
-        <section class = "modalSection">
-            <div class = "modal">
-                <div class = "modalInner">
-                    <div class = "modalTop">
-                        <div class = "modalTitle">Sample Modal Title</div>
-                        <button class = "modalClose" type = "button"></button>
-                        <span class = "closeIcon"><i class="fa-solid fa-square-xmark"></i></span>
-                    </div>
+            <section class = "modalSection">
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn">Open Modal</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Modal Header</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Some text in the Modal Body</p>
+                        <p>Some other text...</p>
+                      </div>
+                      <div class="modal-footer">
+                        <h3>Modal Footer</h3>
+                      </div>
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
                 </div>
-            </div>
+
+                </div>
+            </section>
+        </article>
 
         <!--Footer-->
         <footer id = "footer">
