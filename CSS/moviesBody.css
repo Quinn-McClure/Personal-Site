@@ -1,0 +1,41 @@
+/* =========================================== 
+                   Index Body
+===============================================*/
+
+#flexContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+#queueLogo
+{
+    margin: 30px;
+    float: right;
+}
+
+article
+{
+    margin: 50px;
+    float: right;
+}
+
+#logoList
+{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    flex-direction: row;
+    gap: 1em;
+    padding: 15px;
+    margin: 15px;
+}
+
+.logoItem
+{
+    size: 200px;
+}
