@@ -1,15 +1,6 @@
-
 /* =========================================== 
                    Index Body
 ===============================================*/
-#profImg
-{
-    height: 300px;
-    width: 400px;
-    float: left;
-    max-width: 100%;
-    height: auto;
-}
 
 #flexContainer
 {
@@ -21,19 +12,30 @@
     height: auto;
 }
 
-#imgContainer
+#queueLogo
 {
     margin: 30px;
-    float: left;
+    float: right;
 }
 
 article
 {
-    font-size: large;
+    margin: 50px;
+    float: right;
 }
 
-#explore
+#logoList
 {
-    padding: 10px;
-    margin: 10px;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    flex-direction: row;
+    gap: 1em;
+    padding: 15px;
+    margin: 15px;
+}
+
+.logoItem
+{
+    size: 200px;
 }
