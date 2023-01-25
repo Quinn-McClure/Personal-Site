@@ -32,7 +32,7 @@
     size: 200px;
 }
 
-#linkedin:hover, #github:hover
+#linkedin:hover, #github:hover, #phone:hover, #email:hover
 {
     background-color: rgb(24, 241, 63);
 }
