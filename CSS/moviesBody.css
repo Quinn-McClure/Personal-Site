@@ -33,6 +33,7 @@ article
 {
     margin: 50px;
     float: right;
+    font-size: large;
 }
 
 #logoList
@@ -49,4 +50,9 @@ article
 .logoItem
 {
     size: 200px;
+}
+
+#instagram:hover, #youtube:hover
+{
+    background-color: rgb(24, 241, 63);
 }
