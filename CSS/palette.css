@@ -4,7 +4,7 @@ body
     font-family: 'Quicksand', sans-serif;
 }
 
-p, h1, h2, a, b
+p, h1, h2, a, b, h3, h4
 {
     color: white;
 }
