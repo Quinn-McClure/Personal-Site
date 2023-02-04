@@ -26,12 +26,13 @@ article
     flex-wrap: wrap;
     flex-direction: column;
     gap: 3em;
-    margin-bottom: 1000px;
+    margin-bottom:200px;
 }
 
 #projectsContainer
 {
     background-color: rgb(32, 82, 149);
+    width: 100%
 }
 
 #certContainer
@@ -41,15 +42,14 @@ article
 
 #skillsContainer
 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 3em;
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
 }
 
 #java
 {
-    float: left;
+    flex-wrap: wrap;
 }
 
 #git
